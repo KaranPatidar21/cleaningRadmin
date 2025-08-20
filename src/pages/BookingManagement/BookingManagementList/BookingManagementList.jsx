@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Header from '../../../Common/header'
+import Header from '../../../Common/Header'
 import Sidebar from '../../../Common/Sidebar'
 import { useNavigate } from 'react-router-dom';
 function BookingManagementList() {
