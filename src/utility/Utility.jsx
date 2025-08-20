@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { BASE_URL } from "../../config";
+import { BASE_URL } from "../../config.js";
 
 const UrbanAdminToken = localStorage.getItem("UrbanAdminToken");
 
