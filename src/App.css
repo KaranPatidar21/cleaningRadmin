@@ -1,0 +1,20 @@
+/* Sidebar icon styles */
+.app-sidebar-menu [data-feather] {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.5;
+}
+
+/* Product management specific icons */
+.app-sidebar-menu .nav-second-level [data-feather] {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  stroke-width: 2;
+}
+
+/* Icon hover effect */
+.app-sidebar-menu a:hover [data-feather] {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
